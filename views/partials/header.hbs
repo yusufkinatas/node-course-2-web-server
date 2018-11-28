@@ -1,5 +1,11 @@
-<header>
+<header style="
+    display: flex;
+    flex-direction: column
+">
   <h1>{{pageTitle}}</h1>
-  <p><a href="/" >Home</a></p>
-  <p><a href="/about" >About</a></p>
+  <div style="display: flex">
+    <p><a href="/">Home</a></p>
+    <p style="margin-left: 10px"><a href="/about">About</a></p>
+    <p style="margin-left: 10px"><a href="/projects">Projects</a></p>
+  </div>
 </header>
